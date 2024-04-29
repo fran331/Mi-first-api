@@ -1,16 +1,16 @@
 const mongoose = require('mongoose');
 const usuario = new mongoose.Schema(
 { 
- name:{ 
+ club:{ 
     type: String
  },
- email:{ 
+ apodo_del_club:{ 
     type: String
   },
-  edad:{
+  director_tecnico:{
     type: String
    },
-   password : {
+   mejor_jugador : {
     type: String
  }
 
